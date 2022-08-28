@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:
+     linear-gradient(to right, #ffffff,GREEN);
+}
+
+.container{
+    display: flex;
+}
+
+.icons{
+    box-sizing: border-box;
+    position: absolute;
+    width: 122px;
+    height: 650px;
+    top: 55px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    font-size: 40px;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+}
+.food-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+    background: #F1D5BB;
+    width: 600px;
+
+}
+.foods{
+    display: block;
+}
+.foodpic{
+    width: 130px;
+    height: 150px;
+}
+
+.name{
+    font-size: 23px;
+    margin-left: 30px;  
+}
+
+.increase1{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.promo{
+    
+    padding: 10px;
+    margin-top: 108px;
+    margin-left: 40px;
+    height: 210px;
+    background: #F1D5BB;
+    width: 250px;
+}
+
+button{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    font-size: large;
+}
+
+.promocode{
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    position: absolute;
+    height: 296px;
+    left: 933px;
+    top: 321px;
+    background-color: white;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px;
+    width: 270px;
+}
+
+
+@media (max-width: 768px){
+    .icons{
+    box-sizing: border-box;
+    position: absolute;
+    width: 52px;
+    height: 565px;
+    top: 75px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+ }
+ .food{
+    padding: 3px;
+    margin: 3px;
+ }
+ .food-item{
+    display: flex;
+    padding: 0px;
+    margin-left:85px;
+    margin-top: 10px;
+    background: #F1D5BB;
+    width: 410px;
+ }
+
+ img{
+    width: 60px;
+    height: 70px;
+ }
+
+ .name1{
+    font-size: 15px;
+    margin-left: 10px;
+    
+ }
+
+ .foot-p{
+     font-size: 15px;
+     margin-bottom: 190px;
+     margin-left: -90px;
+ }
+ 
+ 
+ .food3{
+     margin-left: 40px;
+     
+ }
+ .container{
+    display: block;
+ }
+ 
+ .foods{
+    display: block;
+ }
+ 
+
+
+ .increase1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+ }
+
+ .removed{
+     margin-left: 230px;
+     margin-top: -200px;
+ }
+
+ .promo{
+    padding: 20px;
+    margin-top: 108px;
+    margin-left: 40px;
+    height: 210px;
+    background: #F1D5BB;
+    width: 210px;
+ }
+
+ button{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    font-size: large;
+ }
+
+ .promocode{
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    position: absolute;
+    height: 260px;
+    left: 300px;
+    top: 680px;
+    background-color: white;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px;
+    width: 200px;
+ }
+
+ input{
+     width: 100px;
+     padding: 5px 15px;
+ }
+
+}
+
+
+
+
+
+
